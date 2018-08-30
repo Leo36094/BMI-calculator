@@ -2,6 +2,7 @@ body{
     width: 1024px;
     margin: auto;
     font-family: 'Josefin Sans', sans-serif;
+    border:auto;
 }
 
 
@@ -50,7 +51,7 @@ header{
 }
 
 
-.btn{
+#btn{
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -61,14 +62,15 @@ header{
     color: #424242;
     border:none;
     outline: none;
+    cursor: pointer;
 }
 
-.btn:hover{
+#btn:hover{
     opacity: 0.8;
     transition: all 0.2s ease-in-out;
 }
 
-.btn:active{
+#btn:active{
     opacity: 0.4;
 }
 
@@ -79,6 +81,7 @@ header{
     justify-content: center;
     align-items: center;
     height: auto;
+    background:#DDDADC;
 }
 
 .result-sec h2{
@@ -92,8 +95,91 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #FFFFFF;
 }
 
+.result-sec li{
+    padding-right: 11px;
+    margin-bottom: 10px;
+}
+
+.result-sec span{
+    margin-left: 10px;
+}
+
+.rmBtn{
+    background: #FFD366;
+    color: black;
+    font-size: 14px;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 40px;
+    padding:4px 16px;
+    outline: none;
+    margin:10px 0;
+    cursor: pointer;
+}
+
+.rmBtn:hover{
+    opacity: 0.8;
+    transition: all 0.2s ease-in-out;
+}
+
+.rmBtn:active{
+    opacity: 0.4;
+}
+
+
+/* Weight Status */
+
+.overWeight{
+    float: left;
+    background: #FF1200;
+    box-shadow: 2px 0 3px 0 rgba(255,17,0,0.29);
+    width: 7px;
+    height: 62px;
+    
+}
+.fat{
+    float: left;
+    background: #FF6C02;
+    box-shadow: 2px 0 3px 0 rgba(255,108,2,0.29);
+    width:7px;
+    height: 62px;
+    
+}
+.heavy{
+    float: left;
+    background: #FF6C02;
+    box-shadow: 2px 0 3px 0 rgba(255,108,2,0.29);
+    width:7px;
+    height: 62px;
+    
+}
+.littleHeavy{
+    float: left;
+    background: #FF982D;
+    box-shadow: 2px 0 3px 0 rgba(255,152,45,0.29);
+    width:7px;
+    height: 62px;
+    
+}
+.ideal{
+    float: left;
+    background: #86D73F;
+    box-shadow: 2px 0 3px 0 rgba(133,215,63,0.29);
+    width:7px;
+    height: 62px;
+    
+}
+.skinny{
+    float: left;
+    background-color: #31BAF9;
+    box-shadow: 2px 0 3px 0 rgba(49,186,249,0.29);
+    width:7px;
+    height: 62px;
+    
+}
 
 
 
