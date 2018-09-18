@@ -59,22 +59,22 @@ function updateInfo(info) {
 
 function changeClass(BMI) {
     if (BMI >=40) {
-        status = '過度肥胖';
+        status = 'Obesity';
         return 'overWeight';
     } else if (BMI >= 35) {
-        status = '中度肥胖';
+        status = 'Overweight';
         return 'fat';
     } else if (BMI >= 30) {
-        status = '輕度肥胖';
+        status = 'Fat';
         return 'heavy';
     } else if (BMI >= 25) {
-        status = '肥胖'
+        status = 'Heavy'
         return 'littleHeavy'
     } else if (BMI >= 18.5) {
-        status = '理想'
+        status = 'Ideal'
         return 'ideal'
     } else {
-        status = '過輕';
+        status = 'Underweight';
         return 'skinny'
     }
 }
